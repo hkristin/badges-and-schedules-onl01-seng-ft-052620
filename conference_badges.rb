@@ -10,14 +10,14 @@ end
   return_array
 end
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
   room_assignments
-  speakers.each_with_index do |speaker, index|
+  speakers.each_with_index do |attendee, index|
     
   end
 end
 
 def printer
   puts batch_badge_creator
-  puts assign_rooms.each do |speaker, index|
+  puts assign_rooms.each do |attendee, index|
 end
