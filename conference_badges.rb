@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.map do |attendee|
-    return_array << badge_maker(attendee)
+    
 end
   return_array
 end
