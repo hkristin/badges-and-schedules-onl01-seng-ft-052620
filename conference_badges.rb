@@ -12,7 +12,7 @@ end
 
 def assign_rooms(attendees)
   room_assignments
-  speakers.each_with_index do |attendee, index|
+  attendees.each_with_index do |attendee, index|
     
   end
 end
